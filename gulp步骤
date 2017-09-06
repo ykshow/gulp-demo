@@ -1,0 +1,29 @@
+## gulp 创建步骤
+###1.命令行创建npm配置文件  
+    npm init
+###2.安装我们需要的包
++   ####gulp包:
+    npm install gulp --save-dev
++   ####Css包
+    +   #####less转css包:
+            npm install gulp-less --save-dev
+    +   #####合并css包:
+            npm install gulp-concat --save-dev
+    +   #####压缩css包:
+            npm install gulp-cssnano --save-dev
++   ####js包
+    +   #####混淆包:
+                npm install gulp-uglify --save-dev
++   ####html包
+    +   #####压缩包:
+                npm install gulp-htmlmin --save-dev
++   ####img包
+    +   #####压缩包:
+                npm install gulp-htmlmin --save-dev
+
+    
+###4.
+###3.在项目根目录下添加gulpfile.js,文件这是gulp的主文件,文件名是固定的 
+###4.在gulpfile.js中创建我们需要做的任务
+    
+    
